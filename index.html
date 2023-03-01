@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html Juego="en">
+<title>Juego de Piedra </title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Juego Dinamico" content="Vamos a divertirnos">
+    <title> Vamos con el juego </title>
+
+</head>
+<body>
+    <script>
+        function Aleatorio(main, max){
+            return Math.floor(Math.random()*(max-min + 1) + min)
+        }
+        let jugador=0
+        let pc = Aleatorio(1,3)
+        jugador = prompt("elige 1 piedra, elige 2 papel, elige 3 tijera")
+        // Alert ("elegiste" + jugador)
+
+        if (jugador==1){
+            alert("elegiste Piedra")
+        }else if (jugador==2){
+            alert("elegiste papel")
+        }else if (jugador==3){
+            alert ("elegiste tijera ")
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
